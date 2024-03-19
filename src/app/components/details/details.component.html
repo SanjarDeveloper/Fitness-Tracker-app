@@ -1,0 +1,14 @@
+<div class="flex mt-8 justify-center">
+    <mat-card class="shadow w-4/12">
+        <mat-card-content>
+            <div class="p-8">
+                <h2 class="text-3x1 font-bold mb-4"><span class="text-white">Workout Duration:  </span>{{ detailsWorkout.duration }} minutes</h2>
+                <h2 class=" text-3x1 font-bold mb-4"><span class="text-white">Burned Calories:  </span>{{ detailsWorkout.calories_burned }} kcal</h2>
+                <div class="mt-4">
+                    <span class=" text-white">WorkoutType:</span>
+                    <mat-chip class="ml-2">{{ detailsWorkout.workoutType.name }}</mat-chip>
+                </div>
+            </div>
+        </mat-card-content>
+    </mat-card>
+</div>
